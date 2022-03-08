@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="37f012ce-d5eb-4ebd-9852-3430176f96e2" name="smadhavi@CHQ-MICROKNOT15 2022-03-08 03:15:12" runUser="CORP\smadhavi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-03-08T03:15:12.6931815-07:00" queuing="2022-03-08T03:15:12.6931823-07:00" start="2022-03-08T03:15:09.2390192-07:00" finish="2022-03-08T03:15:13.5640256-07:00" />
+  <TestSettings name="default" id="c500fd54-9694-4e9c-915d-23b674f34f8d">
+    <Deployment runDeploymentRoot="smadhavi_CHQ-MICROKNOT15_2022-03-08_03_15_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="dc8cc763-856e-4571-bdb8-3b35393114a2" testId="a67a76b3-e97d-4afe-9b14-176808ea579d" testName="AddTwoNumbers" computerName="CHQ-MICROKNOT15" duration="00:00:00.0404493" startTime="2022-03-08T03:15:11.3013551-07:00" endTime="2022-03-08T03:15:11.9439046-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc8cc763-856e-4571-bdb8-3b35393114a2">
+      <Output>
+        <StdOut>-&gt; Loading plugin C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\bin\Debug\net5.0\LivingDoc.SpecFlowPlugin.dll&#xD;
+-&gt; Loading plugin C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\bin\Debug\net5.0\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll&#xD;
+-&gt; Loading plugin C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\bin\Debug\net5.0\SpecFlowCalucator.dll&#xD;
+-&gt; Using default config&#xD;
+Given the first number is 50&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)&#xD;
+And the second number is 70&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)&#xD;
+When the two numbers are added&#xD;
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)&#xD;
+Then the result should be 120&#xD;
+-&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)&#xD;
+&#xD;
+
+
+TestContext Messages:
+Given the first number is 50&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)&#xD;
+And the second number is 70&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)&#xD;
+When the two numbers are added&#xD;
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)&#xD;
+Then the result should be 120&#xD;
+-&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14a42b5f-833b-4383-8f74-3c20dd4bdb32" testId="2c074e82-8c59-482d-b6f1-7a245345ea11" testName="SubTwoNumbers" computerName="CHQ-MICROKNOT15" duration="00:00:00.0021779" startTime="2022-03-08T03:15:11.9526828-07:00" endTime="2022-03-08T03:15:11.9551260-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14a42b5f-833b-4383-8f74-3c20dd4bdb32">
+      <Output>
+        <StdOut>Given the first number is 70&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(70) (0.0s)&#xD;
+And the second number is 50&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(50) (0.0s)&#xD;
+When the two numbers are Subtracted&#xD;
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreSubtracted() (0.0s)&#xD;
+Then the result should be 20&#xD;
+-&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(20) (0.0s)&#xD;
+&#xD;
+
+
+TestContext Messages:
+Given the first number is 70&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(70) (0.0s)&#xD;
+And the second number is 50&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(50) (0.0s)&#xD;
+When the two numbers are Subtracted&#xD;
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreSubtracted() (0.0s)&#xD;
+Then the result should be 20&#xD;
+-&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(20) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1e90102-a868-4fc5-afce-07cd9536776a" testId="7ff9a5d1-681c-4786-b8c2-9fe31eb4c416" testName="DividedByTwoNumbers" computerName="CHQ-MICROKNOT15" duration="00:00:00.1400178" startTime="2022-03-08T03:15:11.9552215-07:00" endTime="2022-03-08T03:15:12.0957360-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1e90102-a868-4fc5-afce-07cd9536776a">
+      <Output>
+        <StdOut>Given the first number is 60&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(60) (0.0s)&#xD;
+And the second number is 10&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(10) (0.0s)&#xD;
+When the two numbers are divided&#xD;
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreDivided() (0.0s)&#xD;
+Then the result should be 7&#xD;
+-&gt; error: Assert.AreEqual failed. Expected:&lt;7&gt;. Actual:&lt;6&gt;.  (0.1s)&#xD;
+&#xD;
+
+
+TestContext Messages:
+Given the first number is 60&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(60) (0.0s)&#xD;
+And the second number is 10&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(10) (0.0s)&#xD;
+When the two numbers are divided&#xD;
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreDivided() (0.0s)&#xD;
+Then the result should be 7&#xD;
+-&gt; error: Assert.AreEqual failed. Expected:&lt;7&gt;. Actual:&lt;6&gt;.  (0.1s)</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;7&gt;. Actual:&lt;6&gt;. </Message>
+          <StackTrace>   at SpecFlowCalucator.Steps.CalculatorStepDefinitions.ThenTheResultShouldBe(Int32 value) in C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\Steps\CalculatorStepDefinitions.cs:line 61&#xD;
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration)&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()&#xD;
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()&#xD;
+   at SpecFlowCalucator.Features.CalculatorFeature.ScenarioCleanup()&#xD;
+   at SpecFlowCalucator.Features.CalculatorFeature.DividedByTwoNumbers() in C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\Features\Calculator.feature:line 27&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SubTwoNumbers" storage="c:\users\smadhavi\source\repos\specflowcalucator\specflowcalucator\bin\debug\net5.0\specflowcalucator.dll" id="2c074e82-8c59-482d-b6f1-7a245345ea11">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SubmissionFTwoNumbers" />
+      </TestCategory>
+      <Execution id="14a42b5f-833b-4383-8f74-3c20dd4bdb32" />
+      <TestMethod codeBase="C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\bin\Debug\net5.0\SpecFlowCalucator.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowCalucator.Features.CalculatorFeature" name="SubTwoNumbers" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers" storage="c:\users\smadhavi\source\repos\specflowcalucator\specflowcalucator\bin\debug\net5.0\specflowcalucator.dll" id="a67a76b3-e97d-4afe-9b14-176808ea579d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SumOFTwoNumbers" />
+      </TestCategory>
+      <Execution id="dc8cc763-856e-4571-bdb8-3b35393114a2" />
+      <TestMethod codeBase="C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\bin\Debug\net5.0\SpecFlowCalucator.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowCalucator.Features.CalculatorFeature" name="AddTwoNumbers" />
+    </UnitTest>
+    <UnitTest name="DividedByTwoNumbers" storage="c:\users\smadhavi\source\repos\specflowcalucator\specflowcalucator\bin\debug\net5.0\specflowcalucator.dll" id="7ff9a5d1-681c-4786-b8c2-9fe31eb4c416">
+      <TestCategory>
+        <TestCategoryItem TestCategory="DivisionOfTwoNumbers" />
+      </TestCategory>
+      <Execution id="d1e90102-a868-4fc5-afce-07cd9536776a" />
+      <TestMethod codeBase="C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\bin\Debug\net5.0\SpecFlowCalucator.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowCalucator.Features.CalculatorFeature" name="DividedByTwoNumbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a67a76b3-e97d-4afe-9b14-176808ea579d" executionId="dc8cc763-856e-4571-bdb8-3b35393114a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c074e82-8c59-482d-b6f1-7a245345ea11" executionId="14a42b5f-833b-4383-8f74-3c20dd4bdb32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ff9a5d1-681c-4786-b8c2-9fe31eb4c416" executionId="d1e90102-a868-4fc5-afce-07cd9536776a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>MSTest Executor: Test Parallelization enabled for C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\bin\Debug\net5.0\SpecFlowCalucator.dll (Workers: 2, Scope: ClassLevel).&#xD;
+-&gt; LivingDocPlugin: Output generated in: C:\Users\smadhavi\source\repos\SpecFlowCalucator\SpecFlowCalucator\bin\Debug\net5.0\TestExecution.json&#xD;
+&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

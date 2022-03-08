@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\smadhavi\\source\\repos\\SpecFlowCalucator\\SpecFlowCalucator\\SpecFlowCalucator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\smadhavi\\source\\repos\\Calucator\\Calucator\\Calucator\\Calucator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\smadhavi\\source\\repos\\Calucator\\Calucator\\Calucator\\Calucator.csproj",
+        "projectName": "Calucator",
+        "projectPath": "C:\\Users\\smadhavi\\source\\repos\\Calucator\\Calucator\\Calucator\\Calucator.csproj",
+        "packagesPath": "C:\\Users\\smadhavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smadhavi\\source\\repos\\Calucator\\Calucator\\Calucator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\smadhavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "TrxToHtml.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "TrxToHtml.TrxerConsole": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\smadhavi\\source\\repos\\SpecFlowCalucator\\SpecFlowCalucator\\SpecFlowCalucator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\smadhavi\\source\\repos\\SpecFlowCalucator\\SpecFlowCalucator\\SpecFlowCalucator.csproj",
+        "projectName": "SpecFlowCalucator",
+        "projectPath": "C:\\Users\\smadhavi\\source\\repos\\SpecFlowCalucator\\SpecFlowCalucator\\SpecFlowCalucator.csproj",
+        "packagesPath": "C:\\Users\\smadhavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smadhavi\\source\\repos\\SpecFlowCalucator\\SpecFlowCalucator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\smadhavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\smadhavi\\source\\repos\\Calucator\\Calucator\\Calucator\\Calucator.csproj": {
+                "projectPath": "C:\\Users\\smadhavi\\source\\repos\\Calucator\\Calucator\\Calucator\\Calucator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "SpecFlow.MsTest": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "TrxToHtml.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "TrxToHtml.TrxerConsole": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

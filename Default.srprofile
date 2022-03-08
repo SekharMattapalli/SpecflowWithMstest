@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestProfile xmlns="http://www.specflow.org/schemas/plus/TestProfile/1.5">
+	<Settings  projectName="" 
+             projectId="{dd04f84b-02b7-4023-bfe0-12aab9eb7d88}"
+	   />
+	<Execution testThreadCount="1" testSchedulingMode="Random" retryCount="0" stopAfterFailures="0"  />
+	<Environment testThreadIsolation="Process"/>
+	<!-- For collecting by a SpecRun server update and enable the following element. For using the 
+      collected statistics, set testSchedulingMode="Adaptive" attribute on the <Execution> element.
+    <Server serverUrl="http://specrunserver:6365" publishResults="true" />
+  -->
+
+
+
+	<TestAssemblyPaths>
+		<TestAssemblyPath>SpecFlowCalucator.dll</TestAssemblyPath>
+	</TestAssemblyPaths>
+	<DeploymentTransformation>
+		<GlobalSteps>
+			<!--<Custom type="Ipro.APIFramework.Steps.GlobalConfigurationSteps.FrameworkDeploymentSteps, Ipro.APIFramework.Steps" arguments="ATFArtifactory" />-->
+		</GlobalSteps>
+	</DeploymentTransformation>
+	<Targets>
+		<Target name="DEV" >
+			<DeploymentTransformationSteps>
+			</DeploymentTransformationSteps>
+			<Filter></Filter>
+		</Target>
+	</Targets>
+</TestProfile>
